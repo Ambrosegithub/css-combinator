@@ -1,0 +1,30 @@
+{
+    "connector": {
+      "name": "local",
+      "options": {
+        "pattern": ["**", "!.git/**", "!node_modules/**"]
+      }
+    },
+    "extends": ["development"],
+    "formatters": ["stylish"],
+    "hints": [
+      "button-type",
+      "disown-opener",
+      "html-checker",
+      "meta-charset-utf-8",
+      "meta-viewport",
+      "no-inline-styles:error"
+    ]
+  }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

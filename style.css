@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 3);
+    color: rgb(248, 251, 252);
+    font-weight: bold;
+    text-size-adjust: 100%;
+    font-size: medium;
+    font-family: "Tangerine", serif;
+}
+h1,h2,h3{
+    font-family: 'raleway', sans-serif;
+}
+#nav-header h1{
+    text-align: left;
+    margin-left: 20px;
+}
+#nav-header ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    font-size: 24px;
+    margin-top: 1px;
+    position:absolute;
+    top: 18px;
+    right: 14px;
+}
+#features{
+
+    margin-right: 24px;
+}
+#team{
+   margin-right:  24px;
+}
+#sign-in{
+    margin-right: 10px;
+}
+#first-section h1{
+ font-size: 30px;
+}
+#first-section p{
+    font-size: 24px;
+}
+#first-section a button{
+    width: 400px;
+    height: 80px;
+    padding-top: 24px;
+    padding-bottom:24px;
+    font-size: 30px;
+    border-radius: 40px;
+ color: #fff;
+    background-color: skyblue;
+}
+#accessibility h3{
+    font-size: 24px;
+}
+#accessibility p{
+    font-size: 20px;
+}
+#main{
+
+}
+.content-link{
+    color: aqua;
+}
+#article{
+    background-color: cornsilk;
+}
+#article h3{
+    font-size:24px;
+}
+#article p{
+    font-size: 24px;
+}
+#button2{
+    background-color: skyblue;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:30px;
+    padding-bottom:30px; 
+    color:#fff;
+    border-radius: 60px;
+    font-size: 20px;
+}
+#accessibility{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+#mini-accessibility1{
+    display: block;
+    width: 45%;
+}
+#mini-accessibility2{
+    display: block;
+    width: 45%;
+}
+#productive{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#productive-text #arrow{
+    display: inline;
+}
+#productive-text{
+ font-size: 30;
+}
+#testimony{
+    display: flex;
+    font-size:16px;
+    width: 100%;
+    margin-bottom: 60px;
+    position: absolute;
+    top: 1000px;
+    flex-wrap: wrap;
+}
+#testimony div{
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+}
+#testimony1{
+    padding:20px 40px;
+    margin-left: 200px;
+    float: left;
+    width: 400px;
+    background-color: rgba(192, 192, 192, 0.1);
+}
+#testimony2{
+    padding:20px 40px ;
+    margin-left: 200px;
+    width: 400px;
+    background-color: rgba(192, 192, 192, 0.1);
+
+}
+#testimony3{ 
+    padding: 20px 40px;
+    margin-left: 200px;
+    float: right;
+    width:400px;
+    background-color: rgba(192, 192, 192, 0.1);
+
+}
+#today{
+    background-color: rgb(9, 9, 10);
+    display: flex;
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 1000px;
+    height: 240px;
+    position: absolute;
+    z-index: 9999;
+    top: 1320px;
+    right: 16px;
+    left: 16px;
+    bottom: 16px;
+}
+#today-text {
+    text-align: center;
+}
+#today-text p{
+ text-align: center;
+ margin-left: 32px;
+}
+#div-button{
+    display: flex;
+    position: absolute;
+    top: 150px;
+}
+#button1{
+    background-color: #fff;
+    width:600px;
+    height: 60px;
+    color:transparent;
+    border-radius: 60px;
+    padding: 20px;
+    margin-left:28px ;
+} 
+#button2{
+    background-color:skyblue; 
+    color:#fff;
+    border-radius: 60px;
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 24px;
+}
+#footer{
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+}
+#footer div{
+    margin-top: 40px;
+
+}
+#nav-footer ul li{
+    list-style: none;
+    margin-top:20px ;
+}
+#footer-2ul{
+    margin-top:40px;
+}
+#logo nav ul li a{
+    color:#fff;
+    background-color: blueviolet;
+}
